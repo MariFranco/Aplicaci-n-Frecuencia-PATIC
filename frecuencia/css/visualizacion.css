@@ -1,0 +1,65 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+canvas {
+  position: fixed;
+  top: 10;
+}
+
+#hz {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-size: 20px;
+  z-index: 10;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: blue;
+  opacity: 0;
+  z-index: -1;
+}
+.nota {
+  position: fixed;
+  margin-left: 20px;
+  top: 50px;
+  color: red;
+  font-size: 20px;
+  z-index: 10;
+}
+#notaRe{
+  left: 5%;
+}
+#notaMi{
+  left: 10%;
+}
+#notaFa{
+  left: 15%;
+}
+#notaSol{
+  left: 20%;
+}
+#notaLa{
+  left: 25%;
+}
+#notaSi{
+  left: 30%;
+}
+#notaDo{
+  left: 35%;
+}
+#notaRe2{
+  left: 40%;
+}
